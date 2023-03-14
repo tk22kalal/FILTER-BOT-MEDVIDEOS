@@ -28,6 +28,10 @@
             "description": "Your APP ID from my.telegram.org or @UseTGXBot",
             "value": ""
         },
+        "CHANNELS": {
+            "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+            "required": false
+        },
         "AUTH_USERS": {
             "description": "ID of users that can use the bot commands",
             "value": ""
