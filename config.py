@@ -16,7 +16,9 @@ class Config(object):
     
 
     #ID of group from where bot get messeges
-    CHENNEL
+    CHANNELS = os.environ.get("CHANNELS","")
+
+
     # Database URL from https://cloud.mongodb.com/
     DATABASE_URI = os.environ.get("DATABASE_URI", "")
 
